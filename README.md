@@ -3,7 +3,7 @@ This python script evaluates an expression and returns its zeros by using synthe
 
 Note that this program doesn't completely replace Rational Root Theorem. This is because it's only capable of identifying the **rational** zeros of a given expression.
 
-Aslo note that due to the manner of which floating point calculations are preformed, the script only returns whole numbers.
+Aslo note that due to the manner of which floating point calculations are preformed, the script only returns integers.
 
 ## Why?
 I was struggling with the concept in my Algebra class, and programming always seems to help me understand mathematical procedures.
