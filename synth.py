@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import os, sys, re, math
+import re
 
 def main():
     exp = get_expression()
