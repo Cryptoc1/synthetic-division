@@ -1,7 +1,7 @@
 # Synthetic Division
 This python script evaluates an expression and returns its zeros by using synthetic division.
 
-Note that this program doesn't completely replace Rational Root Theorem. This is because it's only capable of identifying the *rational* zeros of a given expression.
+Note that this program doesn't completely replace Rational Root Theorem. This is because it's only capable of identifying the **rational** zeros of a given expression.
 
 ## Why?
 I was struggling with the concept in my Algebra class, and programming always seems to help me understand mathematical procedures.
