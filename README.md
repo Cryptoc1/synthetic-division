@@ -12,15 +12,17 @@ I was struggling with the concept in my Algebra class, and programming always se
 ![screenshot](screens/screenshot.png)
 
 ## Usage
-I whipped this up pretty fast, so it's not super fancy. When entering the expression, terms should be separated by spaces, unless they are being subtracted, in which case, the subtraction sign should precede the term. By doing so, the term will be registered as a negative number. Exponents should be formatted as if they were being executed as a python expression, using the double asterisk notation, `x**2`. “Blank” variables should be preceded by the “invisible 1” (e.g `1x**2 + 2x`, **NOT** `x**2 + 2x`).
-Example Input:
-
-    1x**2 -2x -63 
+When entering an expression, there are a few formatting rules to ensure the equation is evaluated correctly.
+The rules are as follows:
+  * Exponents are denoted using the `^` sign. For example: `3x^3, 2x^2`.
+  * Operators and terms should be separated by spaces. For example: `2x^2 + 1x`.
+  * Invisible *1*'s and *0*'s need to be manually entered. For example: `2x^3 - 6` needs to be entered as `2x^3 + 0x^2 - 6`. This rules **DOES NOT** exclude the constant term referred to as *`k`*. This means that `2x^2 + 4x` needs the be entered as `2x^2 + 4x + 0`.
 
 ## TODO
-- [ ] Update the parser for better equation inputting options
+- [x] Update the parser for better equation inputting options
     * Repalce `**` with `^` to denote exponents
-    * Refactor logic so that "invisible" 1's and 0's don't have to be manually entered
-- [ ] Print a Syntetic Division Table
-- [ ] Print if some zeros are complex (Use Fundamental Law of Algebra)
+    * Make rules between operators and terms more clear
+- [ ] Refactor logic so that "invisible" 1's and 0's don't have to be manually entered
+- [ ] Print a Synthetic Division Table
+- [x] Print if some zeros are complex (Use Fundamental Theorem of Algebra)
 - [ ] Some sort of Graph?
