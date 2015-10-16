@@ -16,3 +16,11 @@ I whipped this up pretty fast, so it's not super fancy. When entering the expres
 Example Input:
 
     1x**2 -2x -63 
+
+## TODO
+- [ ] Update the parser for better equation inputting options
+    * Repalce `**` with `^` to denote exponents
+    * Refactor logic so that "invisible" 1's and 0's don't have to be manually entered
+- [ ] Print a Syntetic Division Table
+- [ ] Print if some zeros are complex (Use Fundamental Law of Algebra)
+- [ ] Some sort of Graph?
