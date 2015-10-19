@@ -17,6 +17,12 @@ def main():
             if d[len(d)-1] == 0:
                 zeros.append(c)
 
+    # Use this to print out synth. table
+    '''print str(c) + " | " + str(n)
+    print "   " + str(t)
+    print "   " + str(d)
+    print ""'''
+
     print "\nFound " + str(len(zeros)) + " zero(s):"
     print zeros
     if len(zeros) < degree:
